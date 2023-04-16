@@ -4,16 +4,10 @@ module.exports = {
   // Ensure these match with .storybook/preview.js
   theme: {
     colors: {
-      blue: "#3F51B5",
+      primally: "#33A9A2",
+      dark500: "#3B4043",
+      dark800: "#2E2E2E",
       white: "#fff",
-      green: "#84cc16",
-      gray: "#f1f5f9",
-      darkGray: "#9ca3af",
-      orange: "#C77700",
-      lightGray: "#fafafa",
-      border: "#e0e7ff",
-      stone: "#e7e5e4",
-      title: "#6b7280",
     },
     screens: {
       xs: "375px",
