@@ -19,9 +19,7 @@ yarn lint
 
 ```json
 {
-  "name": "map_1",
-  "version": "0.1.0",
-  "private": true,
+  //...
   "engines": {
     "node": ">=14.0.0",
     "yarn": ">=1.22.0",
@@ -32,8 +30,8 @@ yarn lint
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sb": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "sb": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@types/node": "18.15.11",
@@ -49,25 +47,25 @@ yarn lint
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
-    "@storybook/addon-actions": "^6.5.16",
-    "@storybook/addon-controls": "^6.5.16",
-    "@storybook/addon-essentials": "^6.5.16",
-    "@storybook/addon-interactions": "^6.5.16",
-    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addon-actions": "^7.0.5",
+    "@storybook/addon-controls": "^7.0.5",
+    "@storybook/addon-essentials": "^7.0.5",
+    "@storybook/addon-interactions": "^7.0.5",
+    "@storybook/addon-links": "^7.0.5",
+    "@storybook/addon-mdx-gfm": "^7.0.5",
     "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/addon-storysource": "^6.5.16",
-    "@storybook/addons": "^6.5.16",
-    "@storybook/builder-webpack5": "^6.5.16",
-    "@storybook/manager-webpack5": "^6.5.16",
-    "@storybook/react": "^6.5.16",
-    "@storybook/testing-library": "^0.0.13",
-    "@storybook/theming": "^6.5.16",
+    "@storybook/addon-storysource": "^7.0.5",
+    "@storybook/addons": "^7.0.5",
+    "@storybook/nextjs": "^7.0.5",
+    "@storybook/react": "^7.0.5",
+    "@storybook/testing-library": "^0.1.0",
+    "@storybook/theming": "^7.0.5",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "babel-loader": "^9.1.2",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.11",
-    "storybook-addon-next-router": "^4.0.2",
+    "storybook": "^7.0.5",
     "storybook-css-modules-preset": "^1.1.1"
   },
   "resolutions": {
